@@ -4,6 +4,7 @@ from pydantic import BaseModel
 
 from api import users,sections,courses
 
+# db setup here?
 
 app = FastAPI(    
     title="Fast API LMS",

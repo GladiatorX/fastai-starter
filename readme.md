@@ -26,12 +26,3 @@ handles venv ,toml file etc into gitignore-- check on git status should be disab
 
 https://www.toptal.com/developers/gitignore/api/python,macos,windows,linux,visualstudiocode,vim
 
-
-git init
-
-git branch -m main
-
-git checkout -b 1-initial-app-set-up
-
-git add .
-git commit -m "first commit with initial API setup"

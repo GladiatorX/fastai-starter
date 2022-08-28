@@ -1,6 +1,9 @@
 
 from typing import Optional,List
 import fastapi
+
+from pydantic_schemas.user import UserCreate, User
+from api.utils_query.users_query import get_user, get_user_by_email, get_users, create_user
 from pydantic import BaseModel
 
 # this will be referencedin main.py

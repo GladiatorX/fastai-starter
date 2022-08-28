@@ -1,0 +1,21 @@
+
+git init
+
+git branch -m main
+
+git checkout -b 1-initial-app-set-up
+
+git add .
+git commit -m "first commit with initial API setup"
+
+
+poetry add sqlalchemy psycopg2-binary sqlalchemy-utils alembic
+
+sqlalchemy utils
+alembic for migration
+
+
+formatting
+flake8
+black 
+- significance value
